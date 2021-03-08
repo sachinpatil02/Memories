@@ -4,9 +4,6 @@ export default makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
   },
-  appBar: {
-    borderBottom: `1px solid ${theme.palette.divider}`,
-  },
   heroContent: {
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(8, 0, 0),
@@ -30,6 +27,7 @@ export default makeStyles((theme) => ({
     marginTop: theme.spacing(4),
   },
   appBar: {
+    borderBottom: `1px solid ${theme.palette.divider}`,
     borderRadius: 15,
     margin: '30px 0',
     display: 'flex',
